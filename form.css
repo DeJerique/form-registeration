@@ -1,0 +1,38 @@
+body {
+    background-color: paleturquoise;
+}
+
+
+
+.container {
+    font-family: Tilt Prism;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkorange;
+    margin-top: 40px;
+    width: 1000px;
+}
+.heading1{
+    text-align: center;
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .container{
+        margin-top: 400px;
+        height: 900px;
+        font-size: 25px;
+    }
+}
