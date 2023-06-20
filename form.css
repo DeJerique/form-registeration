@@ -58,7 +58,9 @@ body {
     color: deeppink;
 
 }
-
+.al{
+    text-decoration: none;
+}
 
 
 
@@ -73,7 +75,7 @@ body {
         margin-bottom: 150px;
         height: 900px;
         font-size: 25px;
-        width: 350px;
+        width: 300px;
         backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(1px);
         background-color: rgba(117, 114, 114, 0.4);
@@ -88,5 +90,8 @@ body {
         background-position: center;
         max-width: 100%;
         max-height: 100% !important;
+    }
+    .input-line {
+        width: 250px;
     }
 }
