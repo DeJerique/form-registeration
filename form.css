@@ -18,7 +18,8 @@ body {
     align-items: center;
     justify-content: center;
     color: deeppink;
-    margin-top: 90px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     width: 700px;
 }
 
@@ -70,7 +71,7 @@ body {
         margin-bottom: 150px;
         height: 900px;
         font-size: 25px;
-        width: 360px;
+        width: 350px;
         backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(1px);
         background-color: rgba(22, 20, 20, 0.4);
