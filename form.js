@@ -6,9 +6,17 @@ if (document.getElementById('registration-form')) {
         // Get form values
         var usernameInput = document.getElementById('username');
         var passwordInput = document.getElementById('password');
+        var confirmPasswordInput = document.getElementById('confirm-password');
 
         var username = usernameInput.value;
         var password = passwordInput.value;
+        var confirmPassword = confirmPasswordInput.value;
+
+        // Check if password and confirm password match
+        if (password !== confirmPassword) {
+            alert('Passwords do not match. Please try again.');
+            return;
+        }
 
         // Store the username and password in local storage
         localStorage.setItem('username', username);
