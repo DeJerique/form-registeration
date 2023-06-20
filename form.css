@@ -76,7 +76,7 @@ body {
         width: 350px;
         backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(1px);
-        background-color: rgba(22, 20, 20, 0.4);
+        background-color: rgba(117, 114, 114, 0.4);
         border-color: black;
         border-width: 2px;
         border-style: solid;
