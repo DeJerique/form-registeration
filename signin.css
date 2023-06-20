@@ -19,6 +19,7 @@ body {
 .heading1 {
     text-align: center;
     color: white !important;
+    font-family: Lobster;
 }
 
 .buton {
@@ -36,6 +37,7 @@ body {
     display: flex;
     align-items: center !important;
     justify-content: center !important;
+    font-family: Lobster;
 }
 
 .buton:hover {
@@ -71,7 +73,7 @@ body {
     }
 
     .input-line {
-        width: 200px;
+        width: 250px;
     }
 
 }

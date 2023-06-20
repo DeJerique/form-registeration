@@ -26,6 +26,7 @@ body {
 .heading1 {
     text-align: center;
     color: white !important;
+    font-family: Lobster;
 }
 
 .buton {
@@ -37,6 +38,7 @@ body {
     font-weight: bolder;
     color: beige;
     border: none;
+    font-family: Lobster;
 }
 
 .buton1{
