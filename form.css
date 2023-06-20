@@ -70,11 +70,13 @@ body {
         margin-bottom: 150px;
         height: 900px;
         font-size: 25px;
-        width: 400px;
+        width: 360px;
         backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(1px);
         background-color: rgba(22, 20, 20, 0.4);
-        
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
     }
 
     body {
